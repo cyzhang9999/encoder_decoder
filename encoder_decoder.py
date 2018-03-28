@@ -7,6 +7,7 @@ from keras.layers.recurrent import LSTM
 from keras.layers.embeddings import Embedding
 from keras.layers.core import RepeatVector, TimeDistributedDense, Activation
 from seq2seq.layers.decoders import LSTMDecoder, LSTMDecoder2, AttentionDecoder
+from functools import reduce
 import time
 import numpy as np
 import re
